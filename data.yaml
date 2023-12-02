@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['pistol', 'Knife']
+
+roboflow:
+  workspace: joseph-nelson
+  project: pistols
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/joseph-nelson/pistols/dataset/1
